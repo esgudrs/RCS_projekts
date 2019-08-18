@@ -1,0 +1,22 @@
+.blog-back {
+    background: #a8a8a8;
+    border: 10px solid #333;
+}
+
+.bigtitle {
+    color: red;
+}
+
+.blog-back {
+    background: white;
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+.big-blog-image{
+  width: 900px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+

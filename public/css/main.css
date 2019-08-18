@@ -1,0 +1,113 @@
+body {
+    display: relative;
+    margin: 0;
+    padding: 0;
+    background-image: url("/bildes/background/main-nav-back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.content-size {
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+.custom-toggler.navbar-toggler {
+    border-color: #ff9100;
+  } 
+
+.custom-toggler .navbar-toggler-icon {
+    color: white;
+    background-image: url("/bildes/hamburger-solid.png");
+}
+
+.navback {
+    background: rgba(51, 51, 51, 0.315) !important;
+}
+
+.nav-links {
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+}
+
+.nav-links a {
+    color: white !important;
+    transition: .5s;
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    background: #55555565;
+    border-radius: 10px;
+}
+
+.nav-links a:hover {
+    color: white !important;
+    background: #d3d3d365;
+    border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    background: black;
+    color: white;
+    width: 100%;
+    z-index: 999 !important;
+    
+}
+
+footer i {
+    color: white;
+    transition: 1s;
+}
+
+footer i:hover {
+    color: #f78c52;
+}
+
+.support-text h3 {
+    color: #f78c52;
+    padding-bottom: 15px
+}
+
+.support-text a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: grey;
+}
+
+.support-text a:hover {
+    color: #f78c52;
+}
+
+footer h3 {
+    color: #f78c52;
+}
+
+.newsletter .field {
+    height: 45px;
+    margin: 0;
+    padding-left: 10px; 
+    width: 320px;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 5px solid orange;
+}
+
+.newsletter  .subscribe {
+    height: 50px;
+    margin: 0;
+    border: none;
+    margin-left: -5px;
+    color: white;
+    background: orange;
+}
